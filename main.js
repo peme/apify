@@ -294,7 +294,6 @@ const crawler = new PuppeteerCrawler({
         }
     },
     maxRequestRetries: 2,
-    handlePageTimeoutSecs: 60,
 });
 
 await crawler.run();
