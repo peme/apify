@@ -1,0 +1,23 @@
+{
+  "title": "Samsølinjen Fartplan Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrl": {
+      "title": "Start URL",
+      "type": "string",
+      "description": "URL til fartplan siden",
+      "default": "https://www.samsoelinjen.dk/fartplan",
+      "editor": "textfield"
+    },
+    "maxDepartures": {
+      "title": "Maks antal afgange",
+      "type": "integer",
+      "description": "Maksimalt antal afgange der skal scrapes",
+      "default": 50,
+      "editor": "number"
+    }
+  },
+  "required": []
+}
+

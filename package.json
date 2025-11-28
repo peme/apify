@@ -1,0 +1,14 @@
+{
+  "name": "samsoelinjen-fartplan-scraper",
+  "version": "1.0.0",
+  "description": "Scraper til at hente færgeafgange fra Samsølinjens fartplan",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.0.0"
+  },
+  "type": "module"
+}
+
